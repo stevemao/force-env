@@ -1,0 +1,36 @@
+{
+  "name": "force-env",
+  "version": "1.0.0",
+  "description": "Ensure environment variable exists. If not, throw to fail early.",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "./lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --declaration --outDir lib index.ts",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/force-env.git"
+  },
+  "keywords": [
+    "env",
+    "var",
+    "vars",
+    "throw"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/force-env/issues"
+  },
+  "homepage": "https://github.com/stevemao/force-env#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  }
+}
